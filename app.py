@@ -3,5 +3,5 @@ app=Flask(__name__)
 @app.route("/")
 def home():
   return "flask application running successfully"
-if __name__=='__main__":
+if __name__=="__main__":
 app.run(host='0.0.00',port=5000)
